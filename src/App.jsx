@@ -6,6 +6,7 @@ import './App.css'
 import Register from './components/Register'
 import Searchstud from './components/Searchstud'
 import Delete from './components/Delete'
+import View from './components/View'
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     <Register/>
     <Searchstud/>
     <Delete/>
-    
+    <View/>
     </>
   )
 }
