@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavBar from './NavBar'
 
 const View = () => {
 
@@ -19,6 +20,7 @@ const View = () => {
             )
   return (
     <div>
+        <NavBar/>
         <div className="container">
             <h1><b>Student Table</b></h1>
     <div className="row">
