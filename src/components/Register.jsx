@@ -36,7 +36,7 @@ const Register = () => {
 
 
  </div>
-                
+                git
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col xxl 6">
 
 <label htmlFor="" className="form-label">Phone Number</label>
