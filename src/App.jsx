@@ -7,6 +7,7 @@ import Register from './components/Register'
 import Searchstud from './components/Searchstud'
 import Delete from './components/Delete'
 import View from './components/View'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 function App() {
@@ -14,10 +15,20 @@ function App() {
 
   return (
     <>
-    <Register/>
-    <Searchstud/>
-    <Delete/>
-    <View/>
+    <BrowserRouter>
+    <Routes>
+      
+  <Route path="/" element={<Register/>}/>
+  <Route path="/search" element={<Searchstud/>}/>
+  <Route path="/delete" element={<Delete/>}/>
+  <Route path="/view" element={<View/>}/>
+  
+
+
+    </Routes>
+    
+    
+    </BrowserRouter>
     </>
   )
 }
